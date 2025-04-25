@@ -1,0 +1,16 @@
+{
+  "name": "custom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node generate-pdf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "handlebars": "^4.7.8",
+    "puppeteer": "^24.7.2"
+  }
+}

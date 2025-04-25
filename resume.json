@@ -1,0 +1,126 @@
+{
+  "basics": {
+    "name": "Taher Barakat",
+    "label": "Front-End Developer",
+    "email": "taber.barakat12223@gmail.com",
+    "phone": "+963938907414",
+    "website": "https://taherbarakat.github.io/portfolio",
+    "summary": "Front-End Developer with more than two years of professional experience at Syriatel Mobile Telecom, specializing in Angular development and responsive web applications. Skilled in building reusable components, implementing state management, and API integration, with a commitment to writing clean, maintainable code.",
+    "location": {
+      "city": "Damascus",
+      "country": "Syria"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "url": "https://www.linkedin.com/in/taher-barakat/"
+      },
+      {
+        "network": "GitHub",
+        "url": "https://github.com/TaherBarakat"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Syriatel Mobile Telecom",
+      "position": "Web Developer",
+      "startDate": "02/2023",
+      "endDate": "Present",
+      "location": "Damascus",
+      "highlights": [
+        "Maintain and enhance reporting systems related to sales, ensuring accuracy, efficiency, and scalability.",
+        "Collaborate on the development and optimization of systems built using Angular and ADO.NET to support sales reporting and analysis.",
+        "Gathering data from many sources and applying classification on it to facilitate and standardize reporting.",
+        "Make dynamic dashboards related to business scope.",
+        "Initiate special analysis reports and studies that reflect sales and marketing information analysis points of view.",
+        "Provide the concerned department with the requested reports using the latest available techniques.",
+        "Provide internal customers in MIS Management Information System with the list of eligible subscribers to certain offers.",
+        "Conduct pre-offer studies to locate segments of subscribers, spot market opportunities, and possible chances and risks.",
+        "Manage offers behavior from the database side (find eligibility and its segmentation depending on specific criteria).",
+        "Prepare yearly revenue budget template to gather all the necessary inputs from the Marketing Department and apply logical evaluation to issue yearly revenue budget."
+      ]
+    },
+    {
+      "company": "No Company",
+      "position": "Freelancing Front-End Developer",
+      "startDate": "2020",
+      "endDate": "Present",
+      "location": "Online",
+      "highlights": [
+        "Working on some university projects for students in Syria.",
+        "Building some simple web pages for variety of clients.",
+        "Proficient in developing modern and efficient web applications using Angular and React."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Damascus University",
+      "area": "Telecommunications & Electronics Engineering",
+      "studyType": "Bachelor Degree"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Proficient in developing modern and efficient web applications using Angular and React.js. Extensive experience in building reusable components for scalable and maintainable code."
+    },
+    {
+      "name": "Version Control",
+      "level": "Proficient in utilizing version control systems, particularly Git, for collaborative and streamlined development processes."
+    },
+    {
+      "name": "State Management",
+      "level": "Expertise in state management libraries such as Redux, ensuring efficient data flow and application state control."
+    },
+    {
+      "name": "Responsive Design",
+      "level": "Adept at creating responsive and visually appealing user interfaces, ensuring optimal user experience across various devices and screen sizes."
+    },
+    {
+      "name": "API Integration",
+      "level": "Skilled in integrating RESTful APIs and third-party services to enhance application functionality and data retrieval."
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "B2"
+    },
+    {
+      "language": "German",
+      "fluency": "A1"
+    },
+    {
+      "language": "Arabic",
+      "fluency": "Mother Language"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "HTML and CSS in depth",
+      "issuer": "Meta/Coursera",
+      "date": "12/2018",
+      "location": "Online"
+    },
+    {
+      "name": "Programming with JavaScript",
+      "issuer": "Meta/Coursera",
+      "date": "11/2023",
+      "location": "Online"
+    },
+    {
+      "name": "Version Control",
+      "issuer": "Meta/Coursera",
+      "date": "11/2023",
+      "location": "Online"
+    },
+    {
+      "name": "Introduction to Front-End Development",
+      "issuer": "Meta/Coursera",
+      "date": "10/2023",
+      "location": "Online"
+    }
+  ]
+}
