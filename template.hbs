@@ -29,10 +29,11 @@
       .work-highlights li { margin-bottom: 1mm; } /* Skills Section */
       .skills-section { columns: 2; column-gap: 10mm; } .skill-item {
       break-inside: avoid; margin-bottom: 2mm; } .skill-title { font-weight:
-      700; } /* Languages */ .language-table { width: 100%; border-collapse:
-      collapse; } .language-table td { padding: 1mm 0; vertical-align: top; } /*
-      Print Adjustments */ @media print { body { padding: 0 !important }
-      .section, .work-item, .skill-item { page-break-inside: avoid; } }
+      700; } .projects-section { columns: 1; column-gap: 10mm; } /* Languages */
+      .language-table { width: 100%; border-collapse: collapse; }
+      .language-table td { padding: 1mm 0; vertical-align: top; } /* Print
+      Adjustments */ @media print { body { padding: 0 !important } .section,
+      .work-item, .skill-item { page-break-inside: avoid; } }
     </style>
   </head>
   <body>
@@ -89,6 +90,23 @@
       </div>
 
       <div class="section">
+        <h3 class="section-title">PROJECTS</h3>
+        <div class="projects-section">
+          {{#each projects}}
+            <div class="skill-item">
+              <div class="skill-title">{{name}}</div>
+              <div>{{description}}</div>
+              <ul class="work-highlights">
+                {{#each highlights}}
+                  <li>{{this}}</li>
+                {{/each}}
+              </ul>
+            </div>
+          {{/each}}
+        </div>
+      </div>
+
+      <div class="section">
         <h3 class="section-title">EDUCATION</h3>
         {{#each education}}
           <div class="education-item">
@@ -125,7 +143,7 @@
           </tr>
         </table>
       </div>
-
+      {{!-- 
       <div class="section">
         <h3 class="section-title">COURSES</h3>
         {{#each certificates}}
@@ -140,7 +158,7 @@
             </div>
           </div>
         {{/each}}
-      </div>
+      </div> --}}
     </div>
   </body>
 </html>

@@ -40,17 +40,50 @@
         "Manage offers behavior from the database side (find eligibility and its segmentation depending on specific criteria).",
         "Prepare yearly revenue budget template to gather all the necessary inputs from the Marketing Department and apply logical evaluation to issue yearly revenue budget."
       ]
+    }
+  ],
+
+  "projects": [
+    {
+      "name": "Sales Reporting System (SRS)",
+      "description": "Daily and monthly sales performance reporting system for dealers and sub-dealers network.",
+      "highlights": [
+        "Generates tabular reports with sales metrics (new lines, revenue, goal achievement) and provides comparative analysis of dealer/sub-dealer performance",
+        "Organizes sales data by teams and regions for targeted performance review",
+        "Developed an automated email feature that allows users to customize report parameters and scheduling based on individual preferences"
+      ],
+      "keyFeatures": [
+        "Dealer hierarchy visualization",
+        "Goal tracking dashboards",
+        "Performance trend analysis"
+      ]
     },
     {
-      "company": "No Company",
-      "position": "Freelancing Front-End Developer",
-      "startDate": "2020",
-      "endDate": "Present",
-      "location": "Online",
+      "name": "Corporate Reporting System (CRS)",
+      "description": "Corporate/VIP customer activity reporting platform.",
       "highlights": [
-        "Working on some university projects for students in Syria.",
-        "Building some simple web pages for variety of clients.",
-        "Proficient in developing modern and efficient web applications using Angular and React."
+        "Tracks corporate line activations, offer subscriptions, and usage patterns also provides segmented views of VIP customer activities",
+        "Delivers standardized monthly reports for corporate account management and consolidates data from multiple billing systems into unified reports"
+      ],
+      "keyFeatures": [
+        "Corporate segment classification",
+        "Offer activation tracking",
+        "Consumption pattern analysis"
+      ]
+    },
+    {
+      "name": "Product Monitoring System (PMS)",
+      "description": "Marketing product performance analysis tool with historical data.",
+      "highlights": [
+        "Tracks subscriber counts and revenue per offer/bundle",
+        "Provides monthly activation trends through comparative charts",
+        "Enables product classification analysis (prepaid/postpaid, segment-based)",
+        "Supports marketing decisions with historical performance data"
+      ],
+      "keyFeatures": [
+        "Product lifecycle tracking",
+        "Activation/revenue trend visualization",
+        "Subscriber segmentation reports"
       ]
     }
   ],
@@ -64,7 +97,7 @@
   "skills": [
     {
       "name": "Web Development",
-      "level": "Proficient in developing modern and efficient web applications using Angular and React.js. Extensive experience in building reusable components for scalable and maintainable code."
+      "level": "Proficient in developing modern and efficient web applications using Angular, React.js and ADO.NET. Extensive experience in building reusable components for scalable and maintainable code."
     },
     {
       "name": "Version Control",
@@ -72,7 +105,7 @@
     },
     {
       "name": "State Management",
-      "level": "Expertise in state management libraries such as Redux, ensuring efficient data flow and application state control."
+      "level": "Expertise in state management libraries such as Redux, RxJs and NgRx, ensuring efficient data flow and application state control."
     },
     {
       "name": "Responsive Design",
@@ -81,6 +114,10 @@
     {
       "name": "API Integration",
       "level": "Skilled in integrating RESTful APIs and third-party services to enhance application functionality and data retrieval."
+    },
+    {
+      "name": "Database Automation",
+      "level": "Experienced in developing automated procedures, jobs, and packages using Oracle PL/SQL. Skilled in creating scheduled database jobs, ETL processes, and data transformation routines to streamline reporting workflows and maintain data integrity."
     }
   ],
   "languages": [
