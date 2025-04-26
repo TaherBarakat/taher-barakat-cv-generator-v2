@@ -1,22 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600;700&display=swap");
-/* A4 Page Specifications */
-@page {
-  size: A4;
-  margin: 10mm 12mm; /*
-      Reduced from 15mm 20mm */
-}
 body {
   font-family: "Crimson Pro", serif;
-  font-size: 13px; /* Slightly smaller font */
-  line-height: 1.25; /* Tighter
-      line spacing */
+  font-size: 11pt;
+  line-height: 1.2;
   color: #000000;
-  background: rgb(255, 255, 255);
+  background: white;
   width: 210mm;
   min-height: 297mm;
   margin: 0 auto;
-  padding: 8mm 10mm; /* Reduced
-      from 15mm 20mm */
+  padding: 15mm 20mm;
   box-sizing: border-box;
 }
 .container {
@@ -25,72 +17,83 @@ body {
 } /* Header Styles */
 .header {
   text-align: center;
-  margin-bottom: 10mm;
+  margin-bottom: 8mm;
 }
 .header h1 {
-  font-size: 24pt;
+  font-size: 18pt;
   font-weight: 700;
-  margin-bottom: 4px;
+  margin-bottom: 2mm;
 }
 .header h2 {
   font-size: 14pt;
   font-weight: 600;
-  margin-bottom: 8px;
+  margin-bottom: 4mm;
 }
 .contact-info {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 8px;
-  margin-bottom: 4px;
+  margin-bottom: 2mm;
+  font-size: 10.5pt;
+  padding-bottom: 4mm; /* Added padding for the line */
+  border-bottom: 1px solid #000; /* Line below contact info */
 }
 .contact-info a {
   color: #000000;
   text-decoration: none;
 } /* Content Styles */
 .summary {
-  margin-bottom: 8mm;
+  margin-bottom: 6mm;
   text-align: justify;
 }
 .section {
-  margin-bottom: 8mm;
+  margin-bottom: 6mm;
   page-break-inside: avoid;
 }
 .section-title {
-  font-size: 12pt;
+  font-size: 13pt;
   font-weight: 700;
   margin-bottom: 4mm;
   border-bottom: 1px solid #000;
-  padding-bottom: 2px;
-} /* Work Experience */
+} /* Work
+Experience - Updated Layout */
 .work-item {
-  margin-bottom: 6mm;
+  margin-bottom: 5mm;
+}
+.work-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1mm;
 }
 .work-title {
   font-weight: 700;
   font-size: 11pt;
 }
-.work-details {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 2mm;
+.work-date {
+  font-style: italic;
+}
+.work-company {
+  font-weight: 700;
+  margin-bottom: 1mm;
+}
+.work-location {
   font-style: italic;
 }
 .work-highlights {
-  padding-left: 5mm;
+  padding-left: 4mm;
   list-style-type: disc;
 }
 .work-highlights li {
   margin-bottom: 1mm;
-} /*
-      Skills Section */
+} /* Skills Section */
 .skills-section {
   columns: 2;
   column-gap: 10mm;
 }
 .skill-item {
   break-inside: avoid;
-  margin-bottom: 3mm;
+  margin-bottom: 2mm;
 }
 .skill-title {
   font-weight: 700;
@@ -100,20 +103,17 @@ body {
   border-collapse: collapse;
 }
 .language-table td {
-  padding: 2mm 0;
+  padding: 1mm 0;
   vertical-align: top;
-} /* Print Adjustments */
+} /*
+Print Adjustments */
 @media print {
   body {
-    padding: 8mm 10mm; /* Matches screen */
-    width: 210mm;
-    height: auto;
+    padding: 15mm 20mm !important;
   }
-  .section {
+  .section,
+  .work-item,
+  .skill-item {
     page-break-inside: avoid;
-  }
-  .skill-item,
-  .work-item {
-    break-inside: avoid;
   }
 }

@@ -3,39 +3,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{{basics.name}} - CV</title>
-    <style>
-
-      @import
+    <style>@import
       url("https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600;700&display=swap");
-      /* A4 Page Specifications */ @page { size: A4; margin: 10mm 12mm; /*
-      Reduced from 15mm 20mm */ } body { font-family: "Crimson Pro", serif;
-      font-size: 13px; /* Slightly smaller font */ line-height: 1.25; /* Tighter
-      line spacing */ color: #000000; background: rgb(255, 255, 255); width:
-      210mm; min-height: 297mm; margin: 0 auto; padding: 8mm 10mm; /* Reduced
-      from 15mm 20mm */ box-sizing: border-box; } .container { width: 100%;
-      height: 100%; } /* Header Styles */ .header { text-align: center;
-      margin-bottom: 10mm; } .header h1 { font-size: 24pt; font-weight: 700;
-      margin-bottom: 4px; } .header h2 { font-size: 14pt; font-weight: 600;
-      margin-bottom: 8px; } .contact-info { display: flex; justify-content:
-      center; flex-wrap: wrap; gap: 8px; margin-bottom: 4px; } .contact-info a {
-      color: #000000; text-decoration: none; } /* Content Styles */ .summary {
-      margin-bottom: 8mm; text-align: justify; } .section { margin-bottom: 8mm;
-      page-break-inside: avoid; } .section-title { font-size: 12pt; font-weight:
-      700; margin-bottom: 4mm; border-bottom: 1px solid #000; padding-bottom:
-      2px; } /* Work Experience */ .work-item { margin-bottom: 6mm; }
-      .work-title { font-weight: 700; font-size: 11pt; } .work-details {
-      display: flex; justify-content: space-between; margin-bottom: 2mm;
-      font-style: italic; } .work-highlights { padding-left: 5mm;
-      list-style-type: disc; } .work-highlights li { margin-bottom: 1mm; } /*
-      Skills Section */ .skills-section { columns: 2; column-gap: 10mm; }
-      .skill-item { break-inside: avoid; margin-bottom: 3mm; } .skill-title {
-      font-weight: 700; } /* Languages */ .language-table { width: 100%;
-      border-collapse: collapse; } .language-table td { padding: 2mm 0;
-      vertical-align: top; } /* Print Adjustments */ @media print { body {
-      padding: 8mm 10mm; /* Matches screen */ width: 210mm; height: auto; }
-      .section { page-break-inside: avoid; } .skill-item, .work-item {
-      break-inside: avoid; } }
-
+      body { font-family: "Crimson Pro", serif; font-size: 11pt; line-height:
+      1.2; color: #000000; background: white; width: 210mm; min-height: 297mm;
+      margin: 0 auto; padding: 15mm 20mm; box-sizing: border-box; } .container {
+      width: 100%; height: 100%; } /* Header Styles */ .header { text-align:
+      center; margin-bottom: 8mm; } .header h1 { font-size: 18pt; font-weight:
+      700; margin-bottom: 2mm; } .header h2 { font-size: 14pt; font-weight: 600;
+      margin-bottom: 4mm; } .contact-info { display: flex; justify-content:
+      center; flex-wrap: wrap; gap: 8px; margin-bottom: 2mm; font-size: 10.5pt;
+      padding-bottom: 4mm; /* Added padding for the line */ border-bottom: 1px
+      solid #000; /* Line below contact info */ } .contact-info a { color:
+      #000000; text-decoration: none; } /* Content Styles */ .summary {
+      margin-bottom: 6mm; text-align: justify; } .section { margin-bottom: 6mm;
+      page-break-inside: avoid; } .section-title { font-size: 13pt; font-weight:
+      700; margin-bottom: 4mm; border-bottom: 1px solid #000; } /* Work
+      Experience - Updated Layout */ .work-item { margin-bottom: 5mm; }
+      .work-header { display: flex; justify-content: space-between;
+      margin-bottom: 1mm; } .work-title { font-weight: 700; font-size: 11pt; }
+      .work-date { font-style: italic; } .work-company { font-weight: 700;
+      margin-bottom: 1mm; } .work-location { font-style: italic; }
+      .work-highlights { padding-left: 4mm; list-style-type: disc; }
+      .work-highlights li { margin-bottom: 1mm; } /* Skills Section */
+      .skills-section { columns: 2; column-gap: 10mm; } .skill-item {
+      break-inside: avoid; margin-bottom: 2mm; } .skill-title { font-weight:
+      700; } /* Languages */ .language-table { width: 100%; border-collapse:
+      collapse; } .language-table td { padding: 1mm 0; vertical-align: top; } /*
+      Print Adjustments */ @media print { body { padding: 15mm 20mm !important;
+      } .section, .work-item, .skill-item { page-break-inside: avoid; } }
     </style>
   </head>
   <body>
@@ -72,14 +68,16 @@
         <h3 class="section-title">WORK EXPERIENCE</h3>
         {{#each work}}
           <div class="work-item">
-            <div class="work-title">{{position}}</div>
-            <div class="work-details">
-              <span>{{company}}</span>
-              <span>{{startDate}} – {{endDate}}</span>
+            <div class="work-header">
+              <div class="work-title">{{position}}</div>
+              <div class="work-date">{{startDate}} – {{endDate}}</div>
             </div>
-            {{#if location}}<div class="work-details">
-                <span>{{location}}</span>
-              </div>{{/if}}
+            <div class="work-header">
+              <div class="work-company">{{company}}</div>
+              {{#if location}}<div
+                  class="work-location"
+                >{{location}}</div>{{/if}}
+            </div>
             <ul class="work-highlights">
               {{#each highlights}}
                 <li>{{this}}</li>
@@ -95,7 +93,7 @@
           <div class="education-item">
             <div class="work-title">{{studyType}} in {{area}}</div>
             <div class="work-details">
-              <span>{{institution}}</span>
+              <span><strong>{{institution}}</strong></span>
             </div>
           </div>
         {{/each}}
@@ -135,7 +133,7 @@
             <div class="certificate-details">
               <span>{{issuer}}</span>
               |
-              <span>{{date}}</span>
+              <span><em>{{date}}</em></span>
               |
               <span>{{location}}</span>
             </div>
