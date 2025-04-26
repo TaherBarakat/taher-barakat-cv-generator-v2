@@ -28,10 +28,10 @@ async function generatePDF() {
     format: "A4",
     printBackground: true,
     margin: {
-      top: "5mm", // Reduced from 7.5mm
-      right: "7mm", // Reduced from 10mm
-      bottom: "5mm", // Reduced from 7.5mm
-      left: "7mm", // Reduced from 10mm
+      top: "1in", // Reduced from 1in
+      right: "1in", // Reduced from 1in
+      bottom: "1in", // Reduced from 1in
+      left: "1in", // Reduced from 1in
     },
     preferCSSPageSize: true,
   });
