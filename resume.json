@@ -5,7 +5,7 @@
     "email": "taber.barakat12223@gmail.com",
     "phone": "+963938907414",
     "website": "https://taherbarakat.github.io/portfolio",
-    "summary": "Front-End Developer with more than two years of professional experience at Syriatel Mobile Telecom, specializing in Angular development and responsive web applications. Skilled in building reusable components, implementing state management, and API integration, with a commitment to writing clean, maintainable code.",
+    "summary": "Front-End Developer with 2+ years of professional experience at Syriatel Mobile Telecom, specializing in Angular development and responsive web applications. Skilled in building reusable components, implementing state management, and API integration, with a commitment to writing clean, maintainable code.",
     "location": {
       "city": "Damascus",
       "country": "Syria"
@@ -24,7 +24,7 @@
   "work": [
     {
       "company": "Syriatel Mobile Telecom",
-      "position": "Web Developer",
+      "position": "Software Developer",
       "startDate": "02/2023",
       "endDate": "Present",
       "location": "Damascus",
@@ -50,7 +50,7 @@
       "highlights": [
         "Generates tabular reports with sales metrics (new lines, revenue, goal achievement) and provides comparative analysis of dealer/sub-dealer performance",
         "Organizes sales data by teams and regions for targeted performance review",
-        "Developed an automated email feature that allows users to customize report parameters and scheduling based on individual preferences"
+        "My participation in SRS was implementing a mail service that allows users to customize report parameters and scheduling based on individual preferences"
       ],
       "keyFeatures": [
         "Dealer hierarchy visualization",
@@ -78,7 +78,8 @@
         "Tracks subscriber counts and revenue per offer/bundle",
         "Provides monthly activation trends through comparative charts",
         "Enables product classification analysis (prepaid/postpaid, segment-based)",
-        "Supports marketing decisions with historical performance data"
+        "Supports marketing decisions with historical performance data",
+        "I built an admin tool for supervisors to manage roles, control table content and behavior, and modify queries/conditions dynamically."
       ],
       "keyFeatures": [
         "Product lifecycle tracking",
@@ -122,16 +123,16 @@
   ],
   "languages": [
     {
+      "language": "Arabic",
+      "fluency": "Mother Language"
+    },
+    {
       "language": "English",
       "fluency": "B2"
     },
     {
       "language": "German",
       "fluency": "A1"
-    },
-    {
-      "language": "Arabic",
-      "fluency": "Mother Language"
     }
   ],
   "certificates": [

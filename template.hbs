@@ -30,9 +30,10 @@
       .skills-section { columns: 2; column-gap: 10mm; } .skill-item {
       break-inside: avoid; margin-bottom: 2mm; } .skill-title { font-weight:
       700; } .projects-section { columns: 1; column-gap: 10mm; } /* Languages */
-      .language-table { width: 100%; border-collapse: collapse; }
-      .language-table td { padding: 1mm 0; vertical-align: top; } /* Print
-      Adjustments */ @media print { body { padding: 0 !important } .section,
+      .language-table { width: 100%; table-layout: fixed; /* This enforces equal
+      column widths */ border-collapse: collapse; } .language-table td {
+      padding: 1mm 0; vertical-align: top; word-break: break-word; } /* Print
+      Adjustments */ @media print { body { padding: 0 !important; } .section,
       .work-item, .skill-item { page-break-inside: avoid; } }
     </style>
   </head>
@@ -51,7 +52,7 @@
           {{#if basics.website}}<span><a
                 href="{{basics.website}}"
                 target="_blank"
-              >my portfolio</a></span>
+              >My Portfolio</a></span>
             |{{/if}}
           {{#each basics.profiles}}
             <span><a
