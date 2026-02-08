@@ -48,9 +48,9 @@
       "name": "Sales Reporting System (SRS)",
       "description": "Daily and monthly sales performance reporting system for dealers and sub-dealers network.",
       "highlights": [
-        "Generates tabular reports with sales metrics (new lines, revenue, goal achievement) and provides comparative analysis of dealer/sub-dealer performance",
-        "Organizes sales data by teams and regions for targeted performance review",
-        "My participation in SRS was implementing a mail service that allows users to customize report parameters and scheduling based on individual preferences"
+        "Generates tabular reports with sales metrics (new lines, revenue, goal achievement) and provides comparative analysis of dealer/sub-dealer performance.",
+        "Organizes sales data by teams and regions for targeted performance review.",
+        "My participation in SRS was implementing a mail service that allows users to customize report parameters and scheduling based on individual preferences."
       ],
       "keyFeatures": [
         "Dealer hierarchy visualization",
@@ -62,8 +62,8 @@
       "name": "Corporate Reporting System (CRS)",
       "description": "Corporate/VIP customer activity reporting platform.",
       "highlights": [
-        "Tracks corporate line activations, offer subscriptions, and usage patterns also provides segmented views of VIP customer activities",
-        "Delivers standardized monthly reports for corporate account management and consolidates data from multiple billing systems into unified reports"
+        "Tracks corporate line activations, offer subscriptions, and usage patterns also provides segmented views of VIP customer activities.",
+        "Delivers standardized monthly reports for corporate account management and consolidates data from multiple billing systems into unified reports."
       ],
       "keyFeatures": [
         "Corporate segment classification",
@@ -75,10 +75,10 @@
       "name": "Product Monitoring System (PMS)",
       "description": "Marketing product performance analysis tool with historical data.",
       "highlights": [
-        "Tracks subscriber counts and revenue per offer/bundle",
-        "Provides monthly activation trends through comparative charts",
-        "Enables product classification analysis (prepaid/postpaid, segment-based)",
-        "Supports marketing decisions with historical performance data",
+        "Tracks subscriber counts and revenue per offer/bundle.",
+        "Provides monthly activation trends through comparative charts.",
+        "Enables product classification analysis (prepaid/postpaid, segment-based).",
+        "Supports marketing decisions with historical performance data.",
         "I built an admin tool for supervisors to manage roles, control table content and behavior, and modify queries/conditions dynamically."
       ],
       "keyFeatures": [
@@ -92,7 +92,10 @@
     {
       "institution": "Damascus University",
       "area": "Telecommunications & Electronics Engineering",
-      "studyType": "Bachelor Degree"
+      "studyType": "Bachelor Degree",
+      "startDate": "15/11/2016",
+      "endDate": "12/11/2024",
+      "location": "Damascus"
     }
   ],
   "skills": [
