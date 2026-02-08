@@ -1,0 +1,166 @@
+{
+  "basics": {
+    "name": "Taher Barakat",
+    "label": "Softwareentwickler",
+    "email": "taber.barakat12223@gmail.com",
+    "phone": "+963938907414",
+    "website": "https://taherbarakat.github.io/portfolio",
+    "summary": "Softwareentwickler mit über 3 Jahren Berufserfahrung bei Syriatel Mobile Telecom, spezialisiert auf Angular- und .NET-Entwicklung sowie responsive Webanwendungen. Erfahren im Aufbau wiederverwendbarer Komponenten, der Implementierung von State-Management und der Integration von APIs, mit starkem Fokus auf sauberen und wartbaren Code.",
+    "location": {
+      "city": "Damaskus",
+      "country": "Syrien"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "url": "https://www.linkedin.com/in/taher-barakat/"
+      },
+      {
+        "network": "GitHub",
+        "url": "https://github.com/TaherBarakat"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Syriatel Mobile Telecom",
+      "position": "Softwareentwickler",
+      "startDate": "02/2023",
+      "endDate": "Heute",
+      "location": "Damaskus",
+      "highlights": [
+        "Wartung und Weiterentwicklung von Berichtssystemen im Vertriebsbereich zur Sicherstellung von Genauigkeit, Effizienz und Skalierbarkeit.",
+        "Mitarbeit an der Entwicklung und Optimierung von Systemen auf Basis von Angular und .NET Core zur Unterstützung von Vertriebsberichten und -analysen.",
+        "Sammlung von Daten aus mehreren Quellen sowie deren Klassifizierung zur Vereinheitlichung und Standardisierung des Reportings.",
+        "Erstellung dynamischer Dashboards für geschäftsrelevante Auswertungen.",
+        "Initiierung spezieller Analyseberichte und Studien zur Bewertung von Vertriebs- und Marketingdaten.",
+        "Bereitstellung angeforderter Berichte für Fachabteilungen unter Einsatz moderner Technologien.",
+        "Unterstützung interner Kunden im MIS (Management Information System) durch Bereitstellung von Listen berechtigter Abonnenten für bestimmte Angebote.",
+        "Durchführung von Vorab-Analysen für Angebote zur Identifikation von Kundensegmenten, Marktchancen sowie potenziellen Risiken.",
+        "Verwaltung des Angebotsverhaltens auf Datenbankebene (Ermittlung der Berechtigung und Segmentierung anhand definierter Kriterien).",
+        "Erstellung einer jährlichen Umsatzbudget-Vorlage zur Sammlung aller relevanten Marketingdaten und Durchführung logischer Bewertungen zur Erstellung des Jahresumsatzbudgets."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Sales Reporting System (SRS)",
+      "description": "Tägliches und monatliches Berichtssystem zur Auswertung der Verkaufsleistung für Händler- und Subhändler-Netzwerke.",
+      "highlights": [
+        "Erstellung tabellarischer Berichte mit Verkaufskennzahlen (Neuverträge, Umsatz, Zielerreichung) sowie vergleichende Leistungsanalysen von Händlern und Subhändlern.",
+        "Strukturierung von Verkaufsdaten nach Teams und Regionen für gezielte Leistungsbewertungen.",
+        "Mein Beitrag zum SRS umfasste die Implementierung eines Mail-Services, der es Benutzern ermöglicht, Berichtsparameter und Zeitpläne individuell anzupassen."
+      ],
+      "keyFeatures": [
+        "Visualisierung der Händlerhierarchie",
+        "Dashboards zur Zielverfolgung",
+        "Analyse von Leistungstrends"
+      ]
+    },
+    {
+      "name": "Corporate Reporting System (CRS)",
+      "description": "Berichtsplattform zur Analyse der Aktivitäten von Firmen- und VIP-Kunden.",
+      "highlights": [
+        "Verfolgung von Firmenanschlüssen, Angebotsaktivierungen und Nutzungsverhalten mit segmentierten Ansichten für VIP-Kunden.",
+        "Bereitstellung standardisierter Monatsberichte für das Corporate Account Management sowie Konsolidierung von Daten aus mehreren Abrechnungssystemen."
+      ],
+      "keyFeatures": [
+        "Klassifizierung von Unternehmenskundensegmenten",
+        "Nachverfolgung von Angebotsaktivierungen",
+        "Analyse von Nutzungsmustern"
+      ]
+    },
+    {
+      "name": "Product Monitoring System (PMS)",
+      "description": "Analyse-Tool zur Überwachung der Performance von Marketingprodukten mit historischen Daten.",
+      "highlights": [
+        "Verfolgung der Abonnentenzahlen und Umsätze pro Angebot oder Bundle.",
+        "Darstellung monatlicher Aktivierungstrends mittels Vergleichsdiagrammen.",
+        "Analyse der Produktklassifizierung (Prepaid/Postpaid, segmentbasiert).",
+        "Unterstützung von Marketingentscheidungen durch historische Leistungsdaten.",
+        "Entwicklung eines Admin-Tools für Vorgesetzte zur Rollenverwaltung, Steuerung von Tabelleninhalten und dynamischen Anpassung von Abfragen und Bedingungen."
+      ],
+      "keyFeatures": [
+        "Produktlebenszyklus-Tracking",
+        "Visualisierung von Aktivierungs- und Umsatztrends",
+        "Berichte zur Abonnentensegmentierung"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universität Damaskus",
+      "area": "Telekommunikations- und Elektronikingenieurwesen",
+      "studyType": "Bachelorabschluss",
+      "startDate": "15/11/2016",
+      "endDate": "12/11/2024",
+      "location": "Damaskus"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Webentwicklung",
+      "level": "Sehr gute Kenntnisse in der Entwicklung moderner und effizienter Webanwendungen mit Angular, React.js und .NET Core. Umfangreiche Erfahrung im Aufbau wiederverwendbarer Komponenten für skalierbaren und wartbaren Code."
+    },
+    {
+      "name": "Versionskontrolle",
+      "level": "Sicherer Umgang mit Versionskontrollsystemen, insbesondere Git, für effiziente Zusammenarbeit im Team."
+    },
+    {
+      "name": "State Management",
+      "level": "Erfahrung mit State-Management-Bibliotheken wie Redux, RxJS und NgRx zur effizienten Steuerung von Datenflüssen und Anwendungszuständen."
+    },
+    {
+      "name": "Responsive Design",
+      "level": "Erfahren in der Gestaltung responsiver und benutzerfreundlicher Oberflächen für verschiedene Geräte und Bildschirmgrößen."
+    },
+    {
+      "name": "API-Integration",
+      "level": "Kompetent in der Entwicklung und Integration von RESTful APIs und Drittanbieterdiensten mit .NET Core zur Erweiterung der Anwendungsfunktionalität."
+    },
+    {
+      "name": "Datenbankautomatisierung",
+      "level": "Erfahrung in der Entwicklung automatisierter Prozeduren, Jobs und Pakete mit Oracle PL/SQL, einschließlich geplanter Datenbankjobs, ETL-Prozesse und Daten­transformationen zur Optimierung von Reporting-Workflows."
+    }
+  ],
+  "languages": [
+    {
+      "language": "Arabisch",
+      "fluency": "Muttersprache"
+    },
+    {
+      "language": "Englisch",
+      "fluency": "B2"
+    },
+    {
+      "language": "Deutsch",
+      "fluency": "A1"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "HTML und CSS im Detail",
+      "issuer": "Meta / Coursera",
+      "date": "12/2018",
+      "location": "Online"
+    },
+    {
+      "name": "Programmieren mit JavaScript",
+      "issuer": "Meta / Coursera",
+      "date": "11/2023",
+      "location": "Online"
+    },
+    {
+      "name": "Versionskontrolle",
+      "issuer": "Meta / Coursera",
+      "date": "11/2023",
+      "location": "Online"
+    },
+    {
+      "name": "Einführung in die Frontend-Entwicklung",
+      "issuer": "Meta / Coursera",
+      "date": "10/2023",
+      "location": "Online"
+    }
+  ]
+}

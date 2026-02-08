@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Taher Barakat",
-    "label": "Front-End Developer",
+    "label": "Software Developer",
     "email": "taber.barakat12223@gmail.com",
     "phone": "+963938907414",
     "website": "https://taherbarakat.github.io/portfolio",
-    "summary": "Front-End Developer with 2+ years of professional experience at Syriatel Mobile Telecom, specializing in Angular development and responsive web applications. Skilled in building reusable components, implementing state management, and API integration, with a commitment to writing clean, maintainable code.",
+    "summary": "Software Developer with 3+ years of professional experience at Syriatel Mobile Telecom, specializing in Angular and .Net development and responsive web applications. Skilled in building reusable components, implementing state management, and API integration, with a commitment to writing clean, maintainable code.",
     "location": {
       "city": "Damascus",
       "country": "Syria"
@@ -30,7 +30,7 @@
       "location": "Damascus",
       "highlights": [
         "Maintain and enhance reporting systems related to sales, ensuring accuracy, efficiency, and scalability.",
-        "Collaborate on the development and optimization of systems built using Angular and ADO.NET to support sales reporting and analysis.",
+        "Collaborate on the development and optimization of systems built using Angular and .NET Core to support sales reporting and analysis.",
         "Gathering data from many sources and applying classification on it to facilitate and standardize reporting.",
         "Make dynamic dashboards related to business scope.",
         "Initiate special analysis reports and studies that reflect sales and marketing information analysis points of view.",
@@ -101,7 +101,7 @@
   "skills": [
     {
       "name": "Web Development",
-      "level": "Proficient in developing modern and efficient web applications using Angular, React.js and ADO.NET. Extensive experience in building reusable components for scalable and maintainable code."
+      "level": "Proficient in developing modern and efficient web applications using Angular, React.js and .NET Core. Extensive experience in building reusable components for scalable and maintainable code."
     },
     {
       "name": "Version Control",
@@ -117,7 +117,7 @@
     },
     {
       "name": "API Integration",
-      "level": "Skilled in integrating RESTful APIs and third-party services to enhance application functionality and data retrieval."
+      "level": "Skilled in Building and integrating RESTful APIs and third-party services using .Net Core to enhance application functionality and data retrieval."
     },
     {
       "name": "Database Automation",

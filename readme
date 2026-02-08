@@ -1,1 +1,3 @@
 run npm run build after modifing the .json file to update the cv 
+run npm run build-software to build the second cv
+run npm run build-de to build the second cv in german
