@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "node generate-pdf.js",
-    "build-software": "node generate-pdf-software.js",
-    "build-software-de": "node generate-pdf-software-de.js"
+    "build-s": "node generate-pdf-software.js",
+    "build-s-de": "node generate-pdf-software-de.js"
   },
   "keywords": [],
   "author": "",

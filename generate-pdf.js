@@ -4,7 +4,7 @@ const path = require("path");
 const Handlebars = require("handlebars");
 
 // 1. Load resume data
-const resumeData = require("./resume.json");
+const resumeData = require("./resume-frontend.json");
 
 // 2. Load and compile template
 const templatePath = path.join(__dirname, "template.hbs");

@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Taher Barakat",
-    "label": "Software Developer",
+    "label": "Front-End Developer",
     "email": "taher.barakat12223@gmail.com",
     "phone": "+963938907414",
     "website": "https://taherbarakat.github.io/portfolio",
-    "summary": "Software Developer with 3+ years of professional experience at Syriatel Mobile Telecom, specializing in Angular and .Net development and responsive web applications. Skilled in building reusable components, implementing state management, and API integration, with a commitment to writing clean, maintainable code.",
+    "summary": "Front-End Developer with 2+ years of professional experience at Syriatel Mobile Telecom, specializing in Angular development and responsive web applications. Skilled in building reusable components, implementing state management, and API integration, with a commitment to writing clean, maintainable code.",
     "location": {
       "city": "Damascus",
       "country": "Syria"
